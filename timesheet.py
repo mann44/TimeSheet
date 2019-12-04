@@ -31,6 +31,7 @@ def Add():
         EmpName = input('Enter Your Name:')
         Emp_Name = EmpName.upper()
         now = datetime.datetime.now()
+        print(file)
         Current  = now.strftime("%Y-%m-%d")
         Clock_in = now.strftime("%H:%M")
 
